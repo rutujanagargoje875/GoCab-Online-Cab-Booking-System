@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
@@ -13,4 +13,40 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  --amber:    #FF8C00;
+  --amber-lt: #FFA940;
+  --amber-dk: #CC7000;
+  --teal:     #0D7377;
+  --teal-lt:  #14A9AE;
+  --ink:      #0E1C1D;
+  --cream:    #FFFBF2;
+  --mist:     #E8F4F4;
 }
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: var(--cream);
+  color: var(--ink);
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--mist); }
+::-webkit-scrollbar-thumb { background: var(--teal); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--teal-lt); }
+
+code { font-family: source-code-pro, Menlo, Monaco, Consolas, monospace; }

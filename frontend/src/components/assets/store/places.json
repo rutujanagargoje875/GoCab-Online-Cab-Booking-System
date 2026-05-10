@@ -1,26 +1,38 @@
 [
-    {
-        "id":0,
-        "label":"Agra"
-    },
-    {
-        "id":1,
-        "label":"Banglore"
-    },
-    {
-        "id":2,
-        "label":"Chennai"
-    },
-    {
-        "id":3,
-        "label":"Delhi"
-    },
-    {
-        "id":4,
-        "label":"East-Delhi"
-    },
-    {
-        "id":5,
-        "label":"Faridabad"
-    }
+    {"id": 0,  "label": "Ahmednagar"},
+    {"id": 1,  "label": "Akola"},
+    {"id": 2,  "label": "Amravati"},
+    {"id": 3,  "label": "Aurangabad"},
+    {"id": 4,  "label": "Beed"},
+    {"id": 5,  "label": "Bhandara"},
+    {"id": 6,  "label": "Buldhana"},
+    {"id": 7,  "label": "Chandrapur"},
+    {"id": 8,  "label": "Dhule"},
+    {"id": 9,  "label": "Gadchiroli"},
+    {"id": 10, "label": "Gondia"},
+    {"id": 11, "label": "Hingoli"},
+    {"id": 12, "label": "Jalgaon"},
+    {"id": 13, "label": "Jalna"},
+    {"id": 14, "label": "Kolhapur"},
+    {"id": 15, "label": "Latur"},
+    {"id": 16, "label": "Mumbai City"},
+    {"id": 17, "label": "Mumbai Suburban"},
+    {"id": 18, "label": "Nagpur"},
+    {"id": 19, "label": "Nanded"},
+    {"id": 20, "label": "Nandurbar"},
+    {"id": 21, "label": "Nashik"},
+    {"id": 22, "label": "Osmanabad"},
+    {"id": 23, "label": "Palghar"},
+    {"id": 24, "label": "Parbhani"},
+    {"id": 25, "label": "Pune"},
+    {"id": 26, "label": "Raigad"},
+    {"id": 27, "label": "Ratnagiri"},
+    {"id": 28, "label": "Sangli"},
+    {"id": 29, "label": "Satara"},
+    {"id": 30, "label": "Sindhudurg"},
+    {"id": 31, "label": "Solapur"},
+    {"id": 32, "label": "Thane"},
+    {"id": 33, "label": "Wardha"},
+    {"id": 34, "label": "Washim"},
+    {"id": 35, "label": "Yavatmal"}
 ]
