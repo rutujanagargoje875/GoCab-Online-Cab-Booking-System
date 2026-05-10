@@ -95,17 +95,20 @@ axios: ^1.3.5 |
 
 ## Screenshots of this project
 
-### User visit Landing page
-![ss1](https://user-images.githubusercontent.com/86184006/232975942-8135ec2d-3772-43d1-86ca-e6664aafdd1b.png)
+### Signin page
+![Sign In](screenshot/signin.png)
 
-### User visit Cab Booking
-![ss2](https://user-images.githubusercontent.com/86184006/232976092-5e9d64ee-476d-41d8-a6a4-d540d58d410e.png)
+### Home page
+![Home Page](screenshot/home.png)
 
+### Book a Cab
+![Booking](screenshot/booking.png)
 
-### Responsive Web Design
+### Fare Breakdown
+![Fare Breakdown](screenshot/farebreakdown.png)
 
-![ss5](https://user-images.githubusercontent.com/86184006/232976182-c2cf7033-efe0-4006-acba-b133473b1979.png)
-![ss7](https://user-images.githubusercontent.com/86184006/232976684-965ffa55-254e-42e1-b04a-b50a8c431d24.png)
+### Booked Cabs
+![Booked Cabs](screenshot/bookedcabs.png)
 
 
 
@@ -116,6 +119,6 @@ axios: ^1.3.5 |
 
 ## BUGs or comments
 
-[Create new Issues](https://github.com/rakshit-2/scaler_assignment.git) (preferred)
+[Create new Issues](https://github.com/rutujanagargoje875/GoCab-Online-Cab-Booking-System/issues) (preferred)
 
-Email Me: rakshit4013@gmail.com (welcome, say hi)
+Email Me: rutujanagargoje875@gmail.com (welcome, say hi)
