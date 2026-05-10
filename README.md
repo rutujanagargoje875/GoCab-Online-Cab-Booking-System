@@ -1,19 +1,10 @@
-# Cab Service(Shortest path/time detection)
+# 🚖 GoCab - Online Cab Booking System
 
 <p>
-<img src="https://img.shields.io/badge/ReactJS-blue?logo=react"
-<img src="https://img.shields.io/badge/Mobile App-React Native-61dafb?logo=android">
+<img src="https://img.shields.io/badge/ReactJS-blue?logo=react">
 <img src="https://img.shields.io/badge/Backend-NodeJS-green?logo=node.js">
 <img src="https://img.shields.io/badge/DataBase-MongoDB-lightgreen?logo=mongoDB">
-
 </p>
-
-**AWS Hosting:**
-
-![aws-s3](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-**Visit The Website Now:**
-[Visit Now](http://43.205.95.49/) 🚀
 
 Welcome to my project! This is a Cab Booking App made with MERN stack. It lets users quickly and easily book cabs with multiple options and price variations. With this App, users can effortlessly reach their destination in the minimum time and price.
 
@@ -27,78 +18,80 @@ Admins can view all the user's email id, the number of cabs they have booked who
 
 #### while ReactJs and NodeJs are structured using an atomic design model
 
+---
+
+## 👩‍💻 Developed By
+**Rutuja Nagargoje**  
+📧 rutujanagargoje875@gmail.com  
+🔗 [GitHub Profile](https://github.com/rutujanagargoje875)
+
+---
+
 ## 🚀 Features
-- No Login Required just the EMAIL
-- Mail of confirmed booking is recieved
-- Multiple cabs to choose from
+- No Login Required — just the EMAIL
+- Mail of confirmed booking is received
+- Multiple cabs to choose from (Cab GO, Cab XL, Cab Premier, Auto, Rental)
 - User can choose rate on his/her own will
 - Multiple locations available
-- User friendly UI
+- Fare Calculation and Breakdown
+- Admin Panel to view Users and Booked Cabs
+- User friendly and Responsive UI
 
+
+---
 
 ## clone or download
 ```terminal
-$ cd client(ReactJs),cd server(NodeJs)
+$ cd frontend(ReactJs), cd backend(NodeJs)
 $ yarn # or npm i
 ```
 
 notice, you need client and server runs concurrently in different terminal session, in order to make them talk to each other
 
-## Client-side usage(PORT: 3000)
+## Frontend usage(PORT: 3000)
 ```terminal
-$ cd client          // go to client folder
+$ cd frontend        // go to frontend folder
 $ yarn # or npm i    // npm install packages
-$ npm start        // run it locally
-
-// deployment for client app
-$ npm run build // this will compile the react code using webpack and generate a folder called docs in the root level
-$ npm run start // this will run the files in docs, this behavior is exactly the same how gh-pages will run your static site
+$ npm start          // run it locally
 ```
 
-
-## Server-side usage(PORT: 5000)
-
-### Prepare your secret
-
-run the script at the first level:
-
-(You need to add a mongoose Connection String in .env to connect to MongoDB)
-
+## Backend usage(PORT: 5000)
 ```terminal
-// in the root level
-$ cd server
-$ echo "MONGODB_URL=MONGODB_URL PORT=5000 GMAIL=GMAIL PASS=Gmail_passwod" >> src/.env
+$ cd backend         // go to backend folder
+$ npm i              // npm install packages
+$ npm run devStart   // run it locally
 ```
 
-### Start
+### Setup Backend Environment
+Add a `.env` file inside `backend/src/` with:
+MONGODB_URL=your_mongodb_url
+PORT=5000
+GMAIL=your_gmail
+PASS=your_gmail_password
 
-```terminal
-$ cd server   // go to server folder
-$ npm i       // npm install packages
-$ npm run devStart // run it locally
-$ npm run build // this will build the server code to es5 js codes and generate a dist file
-```
+---
 
+## Dependencies(tech-stacks)
 
-# Dependencies(tech-stacks)
 Client-side | Server-side
 --- | ---
 @emotion/react: ^11.10.6 | nodemailer: ^6.9.1
-@emotion/styled: ^11.10.6|body-parser: ^1.20.2
+@emotion/styled: ^11.10.6 | body-parser: ^1.20.2
 @fortawesome/fontawesome-free: ^6.4.0 | cors: ^2.8.5
 react: ^18.2.0 | dotenv: ^16.0.3
 react-dom: ^18.2.0 | express: ^4.18.2
-react-router-hash-link: ^2.4.3 | chalk: ^4.1.2
 react-router-dom: ^4.2.2 | mongoose: ^7.0.3
-axios: ^1.3.5 | 
+axios: ^1.3.5 | chalk: ^4.1.2
 @mui/material ^5.12.1 |
 
-## Screenshots of this project
+---
 
-### Signin page
+## 📸 Screenshots
+
+### Signin Page
 ![Sign In](screenshot/signin.png)
 
-### Home page
+### Home Page
 ![Home Page](screenshot/home.png)
 
 ### Book a Cab
@@ -110,12 +103,13 @@ axios: ^1.3.5 |
 ### Booked Cabs
 ![Booked Cabs](screenshot/bookedcabs.png)
 
-
-
+---
 
 ## Standard
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+
+---
 
 ## BUGs or comments
 
